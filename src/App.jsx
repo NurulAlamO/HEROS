@@ -8,7 +8,7 @@ import MainLayout from './layouts/MainLayout';
 const Home = lazy(() => import('./pages/Home'));
 const AllApps = lazy(() => import('./pages/AllApps'));
 const AppDetails = lazy(() => import('./pages/AppDetails'));
-const MyInstallation = lazy(() => import('./pages/MyInstallation'));
+const MyInstallation = lazy(() => import('./Pages/MyInstallation.jsx'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const router = createBrowserRouter([
